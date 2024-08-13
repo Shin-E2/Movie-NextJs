@@ -1,8 +1,7 @@
 import Movie from "@/components/movie";
 import { Metadata } from "next";
 import style from "../../styles/home.module.css";
-
-export const API_URL = "https://nomad-movies.nomadcoders.workers.dev/movies";
+import { API_URL } from "../contain";
 
 export const metadata: Metadata = {
   //metadata: 서버 컴포넌트, 페이지, 레이아웃에만 있을 수 있다.
